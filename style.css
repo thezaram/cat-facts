@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+border: 1px solid yellow;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 2px 2px 15px rgb(222, 76, 76);
+}
+main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid blue;
+}
+main h3{
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+}
+main button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 50px;
+    border: 50px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    background-color: tomato;
+}
+main button:hover{
+    background-color: rgb(110, 68, 60);
+}
+main button:active{
+background-color: rgb(79, 61, 58);
+}
